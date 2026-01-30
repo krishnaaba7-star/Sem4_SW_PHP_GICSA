@@ -75,4 +75,8 @@ $users = [
 // Accessing nested values
 echo $users["user1"]["name"];  // Outputs: Alice
 
+<<<<<<< HEAD
 ?>
+=======
+?>
+>>>>>>> 551107264483707900341c32154ebadaf6ce45d9
