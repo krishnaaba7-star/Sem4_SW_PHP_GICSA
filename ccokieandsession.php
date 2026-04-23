@@ -20,7 +20,7 @@ echo "<h2>Cookie Control Center</h2>";
 
 // 3. CHECK AND DISPLAY COOKIE STATUS
 if (isset($_COOKIE["username"])) {
-    echo "<p style='color: green;'>✅ Cookie 'username' is set! Value: <b>" . $_COOKIE["username"] . "</b></p>";
+    echo "<p style='color: green;'> Cookie 'username' is set! Value: <b>" . $_COOKIE["username"] . "</b></p>";
     
     // Form to trigger the deletion
     echo '<form method="post">
